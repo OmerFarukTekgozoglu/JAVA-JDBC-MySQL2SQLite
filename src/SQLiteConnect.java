@@ -4,7 +4,7 @@ import java.util.List;
 
 public class SQLiteConnect extends Main {
     public void doWrite() throws IOException,SQLException{
-        File file = new File("C:/Users/asd/Desktop/script_3.txt"); //Database değişimlerinnde kayıt yerini main deki adres ile aynı olacak şekilde değiştirin.
+        File file = new File("<your output file path>"); //Database değişimlerinnde kayıt yerini main deki adres ile aynı olacak şekilde değiştirin.
         Writer writer = new FileWriter(file,true);
         int i,p = 0;
         int j = 0;
