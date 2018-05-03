@@ -8,8 +8,8 @@ public class ConnectionSingleton {
     private static ConnectionSingleton ourInstance;
     private String DB_NAME = "content";       // DATABASE İSMİ BURADAN DEĞİŞECEKTİR.
     private final String DB_URL = "jdbc:mysql://localhost:3306/"+DB_NAME+"?useSSL=false";
-    private final String DB_USER = "stajyer";
-    private final String DB_PASSWORD = "";
+    private final String DB_USER = "<your username>";
+    private final String DB_PASSWORD = "<your password>";
     private String[] columnList,arrList,typeListInColumns;
     private Integer[] getColumnNumberInTheTable;
     private Connection connection = null;
